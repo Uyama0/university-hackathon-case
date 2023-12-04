@@ -1,5 +1,4 @@
 import React from "react";
-// import { useRouter } from "next/router";
 
 type Props = {
   params: {
@@ -8,10 +7,7 @@ type Props = {
 };
 
 const page = ({ params: { id } }: Props) => {
-  //   const router = useRouter();
-  //   const { date } = router.query;
-
-  return <div>{id}</div>;
+  return <main className="max-w-7xl mx-auto">d</main>;
 };
 
 export default page;
